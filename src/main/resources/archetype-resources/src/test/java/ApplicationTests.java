@@ -2,6 +2,7 @@ package ${package};
 
 import org.junit.Test;
 import org.junit.Ignore;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import javafx.embed.swing.JFXPanel;
 import org.springframework.boot.test.SpringApplicationConfiguration;
