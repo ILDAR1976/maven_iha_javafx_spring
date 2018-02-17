@@ -1,0 +1,21 @@
+<archetype>
+  <id>maven_iha_javafx_spring</id>
+  <sources>
+    <source>src/main/java/entity/Contact.java</source>
+    <source>src/main/java/entity/ContactWithProperties.java</source>
+    <source>src/main/java/repository/ContactRepository.java</source>
+    <source>src/main/java/service/ContactService.java</source>
+    <source>src/main/java/service/ContactServiceImpl.java</source>
+    <source>src/main/java/ui/MainController.java</source>
+    <source>src/main/java/AbstractJavaFxApplicationSupport.java</source>
+    <source>src/main/java/Application.java</source>
+    <source>src/main/java/ConfigurationControllers.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/fxml/main.fxml</resource>
+    <resource>src/main/resources/application.properties</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/ApplicationTests.java</source>
+  </testSources>
+</archetype>
